@@ -16,6 +16,9 @@ Since changing the drawing functions for Windows form components is a bit compli
 Create a UserControl that does not inherit from TextBox and override its content as the repository codes.
 It should be noted that the following properties can be adjusted in the form and the changes are applied in the Visual Studio form at the design time and before execution.
 
+This code was developed in Visual Studio 2022 with .NET 4.6.2 on Windows 11.
+
+Public Properties:
 
 BorderColor
 
