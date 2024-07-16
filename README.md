@@ -17,10 +17,18 @@ It should be noted that the following properties can be adjusted in the form and
 
 
 BorderColor
+
 BorderThickness
+
 BackColor
+
 ForeColor
+
 Font
+
 Text
+
 Multiline
+
 TextAlign
+
