@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -222,6 +222,18 @@ namespace TextBox_WithBorder
                 }
             }
         }
-
+        [Browsable(true), EditorBrowsable(EditorBrowsableState.Always), Bindable(true)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+        public HorizontalAlignment TextAlign
+        {
+            get
+            {
+                return MainTextBox.TextAlign;
+            }
+            set
+            {
+                MainTextBox.TextAlign = value;
+            }
+        }
     }
 }
