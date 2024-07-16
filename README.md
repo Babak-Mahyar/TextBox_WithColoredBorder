@@ -2,6 +2,7 @@ In response to a Stackoverflow member's question, I wrote and posted some code. 
 The question was:
 
 How to set the alignment and font in a custom textbox on edit mode?
+
 The custom textbox displays the text as expected when not on edit mode, how to show the text vertically centered, with the same font and not overlapped in edit mode?
 The textbox must allow setting the height without affecting the font size or vice versa.
 
